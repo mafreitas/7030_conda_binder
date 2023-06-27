@@ -4,6 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
+  - python=3.9
   - r-base=4.0
   - r-dplyr
   - r-ggplot2
@@ -11,17 +12,10 @@ dependencies:
   - r-tidyverse
   - r-plotly
   - r-stringr
-  - python=3.11
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
   - pip
   - pip:
     - plotly 
     - scikit-learn
+    - pandas
+    - matplotlib
+    - numpy
